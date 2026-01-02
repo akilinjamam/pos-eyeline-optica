@@ -1,6 +1,6 @@
 import useLogin from "./useLogin";
 import signin from './Login.module.scss';
-import logo from '../../images/logo.png';
+import logo from '../../images/eyeline-optica-logo.png';
 import { allInputLoginData } from "./logInputItems";
 import { fetchPostLoginData } from "../../data/fetchedData/fetchLoginData";
 import { useNavigate } from "react-router-dom";
@@ -48,7 +48,8 @@ const Login = () => {
         <div className={`${signin.main} flex_center`}>
             <div className={signin.container}>
                 <img src={logo} alt="" />
-                <p style={{color: 'white'}}></p>
+               
+                <p style={{color: 'white', marginBottom:'50px', fontWeight:'bold'}}>EYELINE OPTICA</p>
               
                 <div className={signin.registration_form}>
                     <h4>Sign in to start your session</h4>

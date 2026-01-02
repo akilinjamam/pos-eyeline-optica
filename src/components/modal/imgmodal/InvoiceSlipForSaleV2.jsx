@@ -18,17 +18,17 @@ const InvoiceSlipForSaleV2 = ({getCustomerInfo, salesList, copy='Copy will be ad
       {/* Header Section */}
       <div style={{ textAlign: 'center',  paddingBottom: '10px' }}>
         <div>
-            <h5 style={{textAlign:'left', width:'86%', margin:'auto',fontWeight:'bolder'}}>NEW</h5>
-            <h2 style={{fontWeight:'bolder', fontSize:'19px', marginBottom:'-4px', marginTop:'-3px'}}> AL-ARAFAT OPTICAL </h2>
+            
+            <h2 style={{fontWeight:'bolder', fontSize:'19px', marginBottom:'-4px', marginTop:'-3px'}}> EYELINE OPTICA</h2>
         </div>
         <div>
-            <h5 style={{textAlign:'left', width:'85%', margin:'auto',fontWeight:'bold'}}>নিউ</h5>
-            <h2 style={{fontWeight:'bolder', fontSize:'15px', marginTop:'-3px'}}> আল-আরাফাত অপটিক্যাল </h2>
+          
+            <h2 style={{fontWeight:'bolder', fontSize:'15px', marginTop:'-3px'}}> আইলাইন অপটিকা</h2>
         </div>
         <p style={{ fontSize: '9px', fontWeight:'bolder', margin:'5px 0' }}>
         
-          Minhaz Complex (Ground Floor),<br /> 12-Jamal Khan Road, Chittagong<br />
-          Cell: 01841 631667, 01729 435335
+          Shop no-3, Nusrat Complex, Plot-14/A, <br />Block-G, P.C. Road, Halishahar, Chittagong<br />
+          Cell: +880 1854 090 991
         </p>
         
         <p style={{ fontSize: '17px', fontWeight:'bolder' }}>

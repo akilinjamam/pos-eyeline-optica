@@ -2,12 +2,12 @@ const ReportTitle = () => {
     return (
       <div style={{ textAlign: 'center', borderBottom: '2px solid #000', paddingBottom: '10px', fontFamily: "'DM Sans', sans-serif" }}>
       <div>
-          <h2> New AL-ARAFAT OPTICAL </h2>
+          <h2> EYELINE OPTICA </h2>
       </div>
       <p style={{ fontSize: '10px' }}>
       
-        Minhaz Complex (Ground Floor), 12-Jamal Khan Road, Chittagong<br />
-        Cell: 01841 631667, 01729 435335
+        Shop no-3, Nusrat Complex, Plot-14/A, Block-G, P.C. Road, Halishahar, Chittagong<br />
+        Cell: +880 1854 090 991
       </p>
     </div>
     );

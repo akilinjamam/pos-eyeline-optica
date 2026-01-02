@@ -11,13 +11,12 @@ $font:"DM Sans", sans-serif;
         width: 40%;
         max-width: 600px;
         height: 80vh;
-        
+        font-family: $font;
+        text-align: center;
         img{
             display: block;
             margin: auto;
-            margin-bottom: 35px;
-            width: 330px;
-            height: 160px;
+            margin-bottom: 15px;
         }
         .registration_form{
             background-color: v.$gray;

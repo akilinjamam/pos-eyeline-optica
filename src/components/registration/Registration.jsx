@@ -1,6 +1,6 @@
 import signup from './Registration.module.scss';
 import '../../global_style/global_style.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/eyeline-optica-logo.png';
 import { allInputData } from './inputItems';
 import useRegistration from './useRegistration';
 import { fetchPostUserData } from '../../data/fetchedData/fetchUserData';
@@ -70,7 +70,8 @@ const Registration = () => {
     return (
         <div className={`${signup.main} flex_center`}>
             <div className={signup.container}>
-                <img src={logo} alt="" />
+                <img src={logo} alt="" className={signup.logo} />
+                 <p style={{color: 'white', marginBottom:'50px', fontWeight:'bold'}}>EYELINE OPTICA</p>
                 <div className={signup.registration_form}>
                     <h4>Sign up to start your session</h4>
                     <form onSubmit={handleSubmit}>
