@@ -71,7 +71,7 @@ const Login = () => {
                             })
                         }
                         <div className={`${signin.forget_pass} flex_right`}>
-                            <p>Forgot Password?</p>
+                            <h3>Forgot Password?</h3>
                         </div>
                         <input className={signin.submit} type="submit" value={`${loading ? 'Loading...' : 'Sign In'}`} required />
                     </form>
@@ -80,11 +80,6 @@ const Login = () => {
                         <h5 >Developed By</h5>
                         <img style={{width: '200px', height:'63px'}}  src={brandImage} alt="" />
                     </div>
-                </div>
-            </div>
-            <div className={`${signin.displayWidthLimitControll}`}>
-                <div className="flex_center">
-                    <p>Screen Size must have to be more than 1242px</p>
                 </div>
             </div>
         </div>

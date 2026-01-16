@@ -11,12 +11,16 @@ $font:"DM Sans", sans-serif;
         width: 40%;
         max-width: 600px;
         height: 80vh;
-        font-family: $font;
-        text-align: center;
+        
         img{
             display: block;
             margin: auto;
-            margin-bottom: 15px;
+            margin-bottom: 35px;
+        }
+        p{
+            text-align: center;
+            font-family: v.$fs;
+            font-size: 20px;
         }
         .registration_form{
             background-color: v.$gray;
@@ -77,31 +81,15 @@ $font:"DM Sans", sans-serif;
         }
     }
 
-    .displayWidthLimitControll {
-        display: none;
-        background-color: v.$primary;
-        width: 100%;
-        height: 100vh;
-
-        div{
-            width: 100%;
-            height: 100vh;
-            p{
-                color: white;
-                font-family: v.$fs;
-            }
-        }
-    }
 }
 
 
 @media screen and (max-width: 1242px) {
 
-   .main > .displayWidthLimitControll {
-        display: block;
+   .main{
+    padding:5px;
+    .container{
+        width:100%
     }
-
-    .main > .container {
-        display: none;
-    }
+   }
 }
